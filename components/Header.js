@@ -7,11 +7,7 @@ export default () => {
         <h1 id="site-title">
           <span>
             <Link href="/">
-              <a
-                href="http://www.beatrixkovacs.co.uk/"
-                title="beatrix kovacs"
-                rel="home"
-              >
+              <a href="/" title="beatrix kovacs" rel="home">
                 beatrix kovacs
               </a>
             </Link>
@@ -25,7 +21,7 @@ export default () => {
             className="clearfix responsiveSlides responsiveSlides1"
           >
             <img
-              src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/Phgr-11.jpg"
+              src="/static/images/2012/03/Phgr-11.jpg"
               alt=""
               width="1000"
               height="288"
@@ -33,7 +29,7 @@ export default () => {
               className=""
             />
             {/* <img
-              src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/Phgr-bw11.jpg"
+              src="static/images/2012/03/Phgr-bw11.jpg"
               alt=""
               width="1000"
               height="288"
@@ -41,7 +37,7 @@ export default () => {
               className="responsiveSlides1_on"
             />
             <img
-              src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/Phgr-bw21.jpg"
+              src="static/images/2012/03/Phgr-bw21.jpg"
               alt=""
               width="1000"
               height="288"
@@ -49,14 +45,14 @@ export default () => {
               className=""
             />
             <img
-              src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/Phgr-bw31.jpg"
+              src="static/images/2012/03/Phgr-bw31.jpg"
               alt=""
               width="1000"
               height="288"
               id="responsiveSlides1_s3"
             />
             <img
-              src="http://www.beatrixkovacs.co.uk/content/uploads/2012/02/Phgr-32.jpg"
+              src="static/images/2012/02/Phgr-32.jpg"
               alt=""
               width="1000"
               height="288"
@@ -75,25 +71,19 @@ export default () => {
             </li>
             <li>
               <Link href="/photography">
-                <a href="/photography">
-                  photography
-                </a>
+                <a href="/photography">photography</a>
               </Link>
             </li>
             <li>
-			<Link href="/pottery">
-              <a href="/pottery">pottery</a>
-			  </Link>
+              <Link href="/pottery">
+                <a href="/pottery">pottery</a>
+              </Link>
             </li>
             <li>
-              <a href="/exhibition">
-                exhibition
-              </a>
+              <a href="/exhibition">exhibition</a>
             </li>
             <li>
-              <a href="/architecture/">
-                architecture
-              </a>
+              <a href="/architecture/">architecture</a>
             </li>
             <li>
               <a href="/craft/">craft</a>
