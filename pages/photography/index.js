@@ -12,9 +12,9 @@ export default () => {
       <section className="clearfix landing-page-posts">
         <article>
           <Link href="photography/moments">
-            <a href="/photography/moments/" rel="bookmark">
+            <a href="photography/moments/" rel="bookmark">
               <img
-                src="http://www.beatrixkovacs.co.uk/content/uploads/2015/09/BK-429-Thorong-La1-125x125.jpg"
+                src="/static/images/2015/09/BK-429-Thorong-La1-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
                 width="125"
@@ -36,7 +36,7 @@ export default () => {
           <Link href="photography/portrait">
             <a href="photography/portrait/" rel="bookmark">
               <img
-                src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/BK206-N-Dolma1-125x125.jpg"
+                src="/static/images/2012/03/BK206-N-Dolma1-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
                 width="125"
@@ -65,7 +65,7 @@ export default () => {
             >
               {" "}
               <img
-                src="http://www.beatrixkovacs.co.uk/content/uploads/2012/03/BK-P1050172-125x125.jpg"
+                src="/static/images/2012/03/BK-P1050172-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
                 width="125"
@@ -94,7 +94,7 @@ export default () => {
             >
               {" "}
               <img
-                src="http://www.beatrixkovacs.co.uk/content/uploads/2012/02/BK-302-N-Lupra1-125x125.jpg"
+                src="/static/images/2012/02/BK-302-N-Lupra1-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
                 width="125"

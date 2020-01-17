@@ -6,77 +6,80 @@ export default () => {
   return (
     <Page>
       <header>
-        <h2 className="entry-title">pottery</h2>
+        <h2 className="entry-title">exhibition</h2>
       </header>
 
       <section className="clearfix landing-page-posts">
         <article>
-          <Link href="pottery/sculptures">
-            <a href="pottery/sculptures" rel="bookmark">
+          <Link href="exhibition/fabric-of-life-2013">
+            <a href="exhibition/fabric-of-life-2013" rel="bookmark">
               <img
                 width="125"
                 height="125"
-                src="/static/images/2012/03/sculpt1-125x125.jpg"
+                src="/static/images/2015/10/fabric-of-life-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
               />
             </a>
           </Link>
           <h2>
-            <Link href="pottery/sculptures">
-              <a href="pottery/sculptures" title="sculptures" rel="bookmark">
-                sculptures
+            <Link href="exhibition/fabric-of-life-2013">
+              <a
+                href="exhibition/fabric-of-life-2013"
+                title="Fabric of Life 2013"
+                rel="bookmark"
+              >
+                Fabric of Life 2013
               </a>
             </Link>
           </h2>
         </article>
 
         <article>
-          <Link href="pottery/vases-glazed">
-            <a href="pottery/vases-glazed" rel="bookmark">
+          <Link href="exhibition/yard-and-meter-2013">
+            <a href="exhibition/yard-and-meter-2013" rel="bookmark">
               <img
                 width="125"
                 height="125"
-                src="/static/images/2012/03/glazd1-125x125.jpg"
+                src="/static/images/2015/10/Yard-and-Meter-10days-2013-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
               />
             </a>
           </Link>
           <h2>
-            <Link href="pottery/vases-glazed">
+            <Link href="exhibition/yard-and-meter-2013">
               <a
-                href="pottery/vases-glazed"
-                title="vases glazed"
+                href="exhibition/yard-and-meter-2013"
+                title="Yard and Metre 2013"
                 rel="bookmark"
               >
-                vases glazed
+                Yard and Metre 2013
               </a>
             </Link>
           </h2>
         </article>
 
         <article>
-          <Link href="pottery/vases-unglazed-bw">
-            <a href="pottery/vases-unglazed-bw" rel="bookmark">
-              {" "}
+          <Link href="exhibition/exhibition-post">
+            <a href="exhibition/exhibition-post" rel="bookmark">
               <img
                 width="125"
                 height="125"
-                src="/static/images/2012/03/ungl-v1-125x125.jpg"
+                src="/static/images/2012/02/exhib_flyer-125x125.jpg"
                 className="attachment-125x125 size-125x125 wp-post-image"
                 alt=""
               />
             </a>
           </Link>
           <h2>
-            <Link href="pottery/vases-unglazed-bw">
+            <Link href="exhibition/exhibition-post">
               <a
-                href="pottery/vases-unglazed-bw"
-                title="vases unglazed b&amp;w"
+                href="exhibition/exhibition-post"
+                title="The Laundry 2010"
                 rel="bookmark"
               >
-                vases unglazed b&amp;w
+                The Laundry 2010
               </a>
             </Link>
           </h2>

@@ -29,7 +29,7 @@ export default () => {
               className=""
             />
             {/* <img
-              src="static/images/2012/03/Phgr-bw11.jpg"
+              src="/static/images/2012/03/Phgr-bw11.jpg"
               alt=""
               width="1000"
               height="288"
@@ -37,7 +37,7 @@ export default () => {
               className="responsiveSlides1_on"
             />
             <img
-              src="static/images/2012/03/Phgr-bw21.jpg"
+              src="/static/images/2012/03/Phgr-bw21.jpg"
               alt=""
               width="1000"
               height="288"
@@ -45,14 +45,14 @@ export default () => {
               className=""
             />
             <img
-              src="static/images/2012/03/Phgr-bw31.jpg"
+              src="/static/images/2012/03/Phgr-bw31.jpg"
               alt=""
               width="1000"
               height="288"
               id="responsiveSlides1_s3"
             />
             <img
-              src="static/images/2012/02/Phgr-32.jpg"
+              src="/static/images/2012/02/Phgr-32.jpg"
               alt=""
               width="1000"
               height="288"
@@ -80,23 +80,33 @@ export default () => {
               </Link>
             </li>
             <li>
-              <a href="/exhibition">exhibition</a>
+              <Link href="/exhibition">
+                <a href="/exhibition">exhibition</a>
+              </Link>
             </li>
             <li>
-              <a href="/architecture/">architecture</a>
+              <Link href="/architecture">
+                <a href="/architecture">architecture</a>
+              </Link>
             </li>
             <li>
-              <a href="/craft/">craft</a>
+              <Link href="/craft">
+                <a href="/craft">craft</a>
+              </Link>
             </li>
           </ul>
         </div>{" "}
         <div className="menu-rhs-menu-container">
           <ul id="menu-rhs-menu" className="menu">
             <li>
-              <a href="/about-me">about</a>
+              <Link href="/about-me">
+                <a href="/about-me">about</a>
+              </Link>
             </li>
             <li>
-              <a href="/contact-me">contact</a>
+              <Link href="/contact-me">
+                <a href="/contact-me">contact</a>
+              </Link>
             </li>
           </ul>
         </div>{" "}
