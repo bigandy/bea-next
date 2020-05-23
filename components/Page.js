@@ -4,15 +4,14 @@ import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 
-export default ({ children, subPage = false }) => {
-	console.log(subPage);
+const Page = ({ children, subPage = false, aboutPage = false }) => {
 	return (
 		<Fragment>
 			<Head>
 				<link href="/static/css/style.css" rel="stylesheet" />
 			</Head>
 			<div id="page">
-				<Header subPage={subPage} />
+				<Header subPage={subPage} aboutPage={aboutPage} />
 
 				<div id="main">
 					<div id="primary" className="landing-page">
@@ -26,3 +25,5 @@ export default ({ children, subPage = false }) => {
 		</Fragment>
 	);
 };
+
+export default Page;

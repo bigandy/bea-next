@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-export default ({ subPage }) => {
+import ActiveLink from "components/ActiveLink";
+
+const Header = ({ subPage, aboutPage }) => {
 	return (
 		<header id="branding" role="banner">
 			<hgroup>
@@ -21,14 +23,27 @@ export default ({ subPage }) => {
 							id="slides"
 							className="clearfix responsiveSlides responsiveSlides1"
 						>
-							<img
-								src="/static/images/2012/03/Phgr-11.jpg"
-								alt=""
-								width="1000"
-								height="288"
-								id="responsiveSlides1_s0"
-								className=""
-							/>
+							{aboutPage ? (
+								<img
+									width="1000"
+									height="288"
+									src="/static/images/2012/03/bea4.jpg"
+									className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+									alt=""
+									srcSet="/static/images/2012/03/bea4.jpg 1000w, /static/images/2012/03/bea4-300x86.jpg 300w, /static/images/2012/03/bea4-768x221.jpg 768w, /static/images/2012/03/bea4-500x144.jpg 500w"
+									sizes="(max-width: 1000px) 100vw, 1000px"
+								></img>
+							) : (
+								<img
+									src="/static/images/2012/03/Phgr-11.jpg"
+									alt=""
+									width="1000"
+									height="288"
+									id="responsiveSlides1_s0"
+									className=""
+								/>
+							)}
+
 							{/* <img
               src="/static/images/2012/03/Phgr-bw11.jpg"
               alt=""
@@ -67,48 +82,32 @@ export default ({ subPage }) => {
 				<div className="menu-nav-menu-container">
 					<ul id="menu-nav-menu" className="menu">
 						<li>
-							<Link href="/">
-								<a href="/">home</a>
-							</Link>
+							<ActiveLink href="/">home</ActiveLink>
 						</li>
 						<li>
-							<Link href="/photography">
-								<a href="/photography">photography</a>
-							</Link>
+							<ActiveLink href="/photography">photography</ActiveLink>
 						</li>
 						<li>
-							<Link href="/pottery">
-								<a href="/pottery">pottery</a>
-							</Link>
+							<ActiveLink href="/pottery">pottery</ActiveLink>
 						</li>
 						<li>
-							<Link href="/exhibition">
-								<a href="/exhibition">exhibition</a>
-							</Link>
+							<ActiveLink href="/exhibition">exhibition</ActiveLink>
 						</li>
 						<li>
-							<Link href="/architecture">
-								<a href="/architecture">architecture</a>
-							</Link>
+							<ActiveLink href="/architecture">architecture</ActiveLink>
 						</li>
 						<li>
-							<Link href="/craft">
-								<a href="/craft">craft</a>
-							</Link>
+							<ActiveLink href="/craft">craft</ActiveLink>
 						</li>
 					</ul>
 				</div>{" "}
 				<div className="menu-rhs-menu-container">
 					<ul id="menu-rhs-menu" className="menu">
 						<li>
-							<Link href="/about-me">
-								<a href="/about-me">about</a>
-							</Link>
+							<ActiveLink href="/about-me">about</ActiveLink>
 						</li>
 						<li>
-							<Link href="/contact-me">
-								<a href="/contact-me">contact</a>
-							</Link>
+							<ActiveLink href="/contact-me">contact</ActiveLink>
 						</li>
 					</ul>
 				</div>{" "}
@@ -116,3 +115,5 @@ export default ({ subPage }) => {
 		</header>
 	);
 };
+
+export default Header;
