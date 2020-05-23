@@ -9,14 +9,14 @@ export default () => {
 				<h2 className="entry-title">yard and meter 2013</h2>
 			</header>
 
-			<div class="entry-content">
+			<div className="entry-content">
 				<p>
 					to view the the book of our collaboration (in pdf format), please
 					click on:
 				</p>
 				<p>
 					<a
-						href="/2015/10/Yard-and-Metre-2013-.pdf"
+						href="/static/images/2015/10/Yard-and-Metre-2013-.pdf"
 						target="_blank"
 						rel="noopener"
 					>

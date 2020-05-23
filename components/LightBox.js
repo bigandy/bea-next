@@ -28,6 +28,7 @@ const LightBox = ({
 						height: 100%;
 						background: black;
 						width: 100%;
+						display: grid;
 					}
 
 					.button {
@@ -51,6 +52,10 @@ const LightBox = ({
 					.next,
 					.previous {
 						top: 50%;
+					}
+
+					img {
+						margin: auto;
 					}
 				`}
 			</style>
