@@ -4,7 +4,7 @@ import Page from "../../components/Page";
 
 export default () => {
   return (
-    <Page>
+    <Page subPage>
       <h2 className="entry-title">vases glazed</h2>
 
       <div

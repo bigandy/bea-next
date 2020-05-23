@@ -4,7 +4,7 @@ import Page from "../../components/Page";
 
 export default () => {
   return (
-    <Page>
+    <Page subPage>
       <header>
         <h2 className="entry-title">dress making</h2>
       </header>
