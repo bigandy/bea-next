@@ -4,14 +4,14 @@ import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Page = ({ children, subPage = false, aboutPage = false }) => {
+const Page = ({ children }) => {
 	return (
 		<Fragment>
 			<Head>
 				<link href="/static/css/style.css" rel="stylesheet" />
 			</Head>
 			<div id="page">
-				<Header subPage={subPage} aboutPage={aboutPage} />
+				<Header />
 
 				<div id="main">
 					<div id="primary" className="landing-page">

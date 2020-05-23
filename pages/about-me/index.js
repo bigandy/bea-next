@@ -2,7 +2,7 @@ import Page from "../../components/Page";
 
 export default () => {
 	return (
-		<Page aboutPage={true}>
+		<Page>
 			<header>
 				<h2 className="entry-title">about me</h2>
 			</header>

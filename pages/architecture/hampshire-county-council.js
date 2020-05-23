@@ -195,7 +195,7 @@ const images = [
 
 export default () => {
 	return (
-		<Page subPage>
+		<Page>
 			<h2 className="entry-title">hampshire county council</h2>
 
 			<Gallery images={images} />

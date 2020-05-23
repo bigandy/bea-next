@@ -4,7 +4,7 @@ import Page from "../../components/Page";
 
 export default () => {
 	return (
-		<Page subPage>
+		<Page>
 			<header>
 				<h2 className="entry-title">yard and meter 2013</h2>
 			</header>

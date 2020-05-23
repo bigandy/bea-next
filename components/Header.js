@@ -1,8 +1,14 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import ActiveLink from "components/ActiveLink";
 
-const Header = ({ subPage, aboutPage }) => {
+const Header = () => {
+	const router = useRouter();
+
+	const aboutPage = router.pathname === "/about-me";
+	const subPage = router.pathname.split("/").length > 2;
+
 	return (
 		<header id="branding" role="banner">
 			<hgroup>

@@ -46,7 +46,7 @@ const images = [
 
 export default () => {
 	return (
-		<Page subPage>
+		<Page>
 			<h2 className="entry-title">nepalese school design</h2>
 
 			<p>

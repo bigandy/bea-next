@@ -146,7 +146,7 @@ const images = [
 
 export default () => {
 	return (
-		<Page subPage>
+		<Page>
 			<h2 className="entry-title">portrait</h2>
 
 			<Gallery images={images} />
