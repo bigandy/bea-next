@@ -197,9 +197,10 @@ const images = [
 ];
 
 export default () => {
+	const title = "design engine architects";
 	return (
-		<Page>
-			<h2 className="entry-title">design engine architects</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<Gallery images={images} />
 		</Page>

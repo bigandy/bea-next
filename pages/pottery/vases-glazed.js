@@ -71,9 +71,10 @@ const images = [
 ];
 
 export default () => {
+	const title = "vases glazed";
 	return (
-		<Page>
-			<h2 className="entry-title">vases glazed</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<Gallery images={images} />
 		</Page>

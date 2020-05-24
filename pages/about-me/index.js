@@ -1,11 +1,10 @@
 import Page from "../../components/Page";
 
 export default () => {
+	const title = "about me";
 	return (
-		<Page>
-			<header>
-				<h2 className="entry-title">about me</h2>
-			</header>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<p>
 				I am profoundly influenced by the sense of touch, inspired by the less

@@ -3,11 +3,10 @@ import Link from "next/link";
 import Page from "../../components/Page";
 
 export default () => {
+	const title = "fabric of life 2013";
 	return (
-		<Page>
-			<header>
-				<h2 className="entry-title">fabric of life 2013</h2>
-			</header>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<div class="entry-content">
 				<p>

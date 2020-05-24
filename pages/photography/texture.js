@@ -146,9 +146,10 @@ const images = [
 ];
 
 export default () => {
+	const title = "texture";
 	return (
-		<Page>
-			<h2 className="entry-title">texture</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<Gallery images={images} />
 		</Page>

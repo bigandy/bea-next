@@ -1,9 +1,10 @@
 import Page from "components/Page";
 
 export default () => {
+	const title = "macrame";
 	return (
-		<Page>
-			<h2 className="entry-title">macrame</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 		</Page>
 	);
 };

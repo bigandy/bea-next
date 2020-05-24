@@ -45,9 +45,10 @@ const images = [
 ];
 
 export default () => {
+	const title = "linocut";
 	return (
-		<Page>
-			<h2 className="entry-title">linocut</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<Gallery images={images} />
 		</Page>

@@ -194,9 +194,10 @@ const images = [
 ];
 
 export default () => {
+	const title = "hampshire county council";
 	return (
-		<Page>
-			<h2 className="entry-title">hampshire county council</h2>
+		<Page title={title}>
+			<h2 className="entry-title">{title}</h2>
 
 			<Gallery images={images} />
 		</Page>
